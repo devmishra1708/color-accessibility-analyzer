@@ -1,0 +1,12 @@
+# Ignore Python virtual environment
+venv/
+backend/venv/
+
+# Node modules
+frontend/node_modules/
+
+# Logs and temporary files
+*.log
+__pycache__/
+.DS_Store
+.env
