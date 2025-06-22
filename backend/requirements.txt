@@ -1,3 +1,5 @@
-Flask
-gunicorn
+Flask>=2.0
+flask-cors
 opencv-python-headless
+Pillow
+gunicorn
