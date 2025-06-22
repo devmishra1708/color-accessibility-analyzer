@@ -53,7 +53,7 @@ function App() {
 
     try {
       const start = performance.now();
-      const response = await axios.post(`${process.env.REACT_APP_BACKEND_URL}/analyze`, formData);
+      const response = await axios.post('http://localhost:5000/analyze', formData);
       const end = performance.now();
       setAnalysisTime(((end - start) / 1000).toFixed(2));
       setResult(response.data);
